@@ -1,3 +1,3 @@
-FROM mongo:8.0
+FROM mongo:7.0
 
 COPY users.json /docker-entrypoint-initdb.d/
