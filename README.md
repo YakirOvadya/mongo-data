@@ -38,7 +38,7 @@ The goal of this repository is to:
 1. Clone the latest :
 
    ```bash
-   git clone https://github.com/YakirOvadya/honeycombhwrun.git
+   git clone https://github.com/yakirovadya/honeycombhwrun.git
    ```
 
 2. Use the provided scripts:
@@ -57,6 +57,7 @@ The goal of this repository is to:
    { "name": "Bob", "email": "bob@example.com" }
    ]
    ```
+4. Run the script again, refresh localhost:3000 to see the changes
 
 ## Deliverables
 
@@ -76,3 +77,5 @@ The goal of this repository is to:
 ## Visual Output
 
 Below is an example of the running system, where the users are fetched from MongoDB and the SHA tag is displayed via the Express consumer service:
+
+![mongo-data](https://raw.githubusercontent.com/yakirovadya/mongo-data/refs/heads/main/images/run.png)
