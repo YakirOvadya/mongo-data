@@ -31,11 +31,11 @@ The goal of this repository is to:
 4. **Build and push Docker image** tagged with the commit SHA
 5. **Clone **\`app-config\`** repository**
 6. **Update **\`mongodb-version.txt\`** with new SHA**
-7. **Push update to **\`main\`** branch of ** \`app-config\`
+7. **Push update to **\`main\`** branch of \`app-config\`**
 
 ## Manual Execution Instructions (Local)
 
-1. Clone the latest :
+1. Clone the ui server running app :
 
    ```bash
    git clone https://github.com/yakirovadya/honeycombhwrun.git
@@ -49,7 +49,7 @@ The goal of this repository is to:
    - Server Running on localhost:3000
 
 3. Modify the seed data:
-   - Edit the \`users.json\` file located in the \`mongo-data\` directory
+   - Edit the \`users.json\` file located in the \`mongo-data\` directory (commit)
    - Ensure the file remains in valid JSON array format, like this:
    ```bash
    [
@@ -57,22 +57,7 @@ The goal of this repository is to:
    { "name": "Bob", "email": "bob@example.com" }
    ]
    ```
-4. Run the script again, refresh localhost:3000 to see the changes
-
-## Deliverables
-
-- **Repositories:**
-
-  - [`mongo-data`](https://github.com/yakirovadya/mongo-data)
-  - [`app-config`](https://github.com/yakirovadya/app-config)
-
-- **Latest Successful Pipeline:**
-
-  - [GitHub Actions - mongo-data](https://github.com/yakirovadya/mongo-data/actions/runs/15187662049)
-
-- **Public Image URL (GHCR):**
-
-  - `ghcr.io/yakirovadya/mongo-seed:0acd9a09f4cf20fd1087f436587fe2d7e915cef2`
+4. Run the script again and refresh localhost:3000 page, to see the changes
 
 ## Visual Output
 
