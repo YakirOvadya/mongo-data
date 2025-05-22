@@ -1,6 +1,6 @@
-'[
+[
 { "name": "Yakir", "email": "yakir@honeycomb.com" },
-{ "name": "Sima", "email": "yakir@honeycomb.com" },
-{ "name": "Georgii", "email": "yakir@honeycomb.com" },
-{ "name": "Gilly", "email": "yakir@honeycomb.com" },
-]' 
+{ "name": "Sima", "email": "sima@honeycomb.com" },
+{ "name": "Georgii", "email": "georgii@honeycomb.com" },
+{ "name": "Gilly", "email": "gilly@honeycomb.com" }
+]
